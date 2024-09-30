@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Button } from "@/components/ui/button";
@@ -44,7 +44,7 @@ const Email = () => {
           role="alert"
         >
           {/* Tick Icon */}
-          <img src="/assets/skills/tick.svg" alt="" className="w-6 h-6" />
+          <Image src="/assets/skills/tick.svg" alt="" className="w-6 h-6" width={24} height={24}/>
 
           {/* Success Message */}
           <span>Email sent successfully!</span>

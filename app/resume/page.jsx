@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { FaHtml5, FaCss3, FaReact, FaFigma, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiDotnet } from "react-icons/si";
@@ -233,7 +234,7 @@ export default function page() {
                         <Tooltip>
                           <TooltipTrigger className="w-full h-[100px]  bg-[#232329] rounded-xl flex justify-center items-center group">
                             <div className="text-6xl transition-all duration-300 group-hover:text-accent">
-                              <img src={skill.icon} alt=""  className="w-24 h-24"/>
+                              <Image src={skill.icon} alt=""  className="w-24 h-24" width={96} height={96}/>
                             </div>
                           </TooltipTrigger>
                           <TooltipContent>
