@@ -75,9 +75,8 @@ export default function Home() {
         <div className="flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-24">
           <div className="order-2 text-center xl:text-left xl:order-none">
             <span className="text-xl">Software Developer</span>
-            import {Typewriter} from 'react-simple-typewriter';
             <h1 className="mb-6 h1">
-              Hello I'm <br />
+              Hello Im <br />
               <span className="text-accent">
                 <Typewriter
                   words={["Kavidu Sandeepa"]}
@@ -91,11 +90,11 @@ export default function Home() {
               </span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              "A quick learner and solution-oriented developer, passionate about
+             &quot;A quick learner and solution-oriented developer, passionate about
               full-stack development. I thrive in dynamic environments,
               embracing challenges with a proactive mindset and leveraging
               teamwork to achieve seamless collaboration and innovative
-              outcomes."
+              outcomes.&quot;
             </p>
             <div className="flex flex-col items-center gap-8 xl:flex-row">
               <Button

@@ -57,7 +57,7 @@ const Email = () => {
         ref={form}
         onSubmit={sendEmail}
       >
-        <h3 className="text-4xl text-accent">Let's Work Together</h3>
+        <h3 className="text-4xl text-accent">Lets Work Together</h3> 
         <p className="text-white/60">
           Reach out to us for collaborations, services, or inquiries.
         </p>
