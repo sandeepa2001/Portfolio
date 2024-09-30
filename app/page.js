@@ -76,7 +76,7 @@ export default function Home() {
           <div className="order-2 text-center xl:text-left xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="mb-6 h1">
-              Hello Im <br />
+              Hello I&apos;m <br />
               <span className="text-accent">
                 <Typewriter
                   words={["Kavidu Sandeepa"]}
