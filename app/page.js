@@ -79,7 +79,7 @@ export default function Home() {
               Hello I&apos;m <br />
               <span className="text-accent">
                 <Typewriter
-                  words={["Kavidu Sandeepa putha"]}
+                  words={["Kavidu Sandeepa"]}
                   loop={1} // Number of loops (1 means it will type once)
                   cursor
                   cursorStyle="|"
