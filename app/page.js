@@ -1,101 +1,128 @@
-import Image from "next/image";
+"use client";
+{
+  /*import Image from "next/image";
+import "./globals.css";
+import { FiDownload } from "react-icons/fi";
+import { Button } from "@/components/ui/button";
+import Social from "./component/Social";
+import Photo from "./component/Photo";
+import Stats from "./component/Stats";
+import Servises from "./services/page";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <section className="h-full">
+      <div className="container h-full mx-auto">
+        <div className="flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-24">
+          <div className="order-2 text-center xl:text-left xl:order-none">
+            <span className="text-xl">Software Developer</span>
+            <h1 className="mb-6 h1">
+              Hello I'm <br />
+              <span className="text-accent">Kavidu Sandeepa</span>
+            </h1>
+            <p className="max-w-[500px] mb-9 text-white/80">
+            "A quick learner and solution-oriented developer, passionate about full-stack development. I thrive in dynamic environments, embracing challenges with a proactive mindset and leveraging teamwork to achieve seamless collaboration and innovative outcomes."
+            </p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <div className="flex flex-col items-center gap-8 xl:flex-row">
+              <Button
+                //variant="outline"
+                size="lg"
+                className="flex items-center gap-2 uppercase"
+              >
+                
+                  <span>Download CV </span>
+                  <a href="/assets/cv.pdf" download>
+                  <FiDownload className="text-xl" />
+                </a>
+              </Button>
+              <div className="mb-8 xl:mb-0">
+                <Social
+                  containerStyles="flex gap-6"
+                  iconStyles="flex items-center justify-center text-base duration-500 border rounded-full  w-9 h-9 border-accent text-accent hover:bg-accent hover:text-primary hover:transition-all"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="order-1 mb-8 xl:order-none xl:mb-0">
+            <Photo />
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <Stats />
+      </div>
+    </section>
+  );
+}
+*/
+}
+import Image from "next/image";
+import "./globals.css";
+import { FiDownload } from "react-icons/fi";
+import { Button } from "@/components/ui/button";
+import Social from "./component/Social";
+import Photo from "./component/Photo";
+import Stats from "./component/Stats";
+import { useEffect, useState } from "react";
+import { Typewriter } from 'react-simple-typewriter';
+
+// TypingEffect Component
+
+export default function Home() {
+  return (
+    <section className="h-full">
+      <div className="container h-full mx-auto">
+        <div className="flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-24">
+          <div className="order-2 text-center xl:text-left xl:order-none">
+            <span className="text-xl">Software Developer</span>
+            import {Typewriter} from 'react-simple-typewriter';
+            <h1 className="mb-6 h1">
+              Hello I'm <br />
+              <span className="text-accent">
+                <Typewriter
+                  words={["Kavidu Sandeepa"]}
+                  loop={1} // Number of loops (1 means it will type once)
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={150}
+                  deleteSpeed={150}
+                  delaySpeed={1000}
+                />
+              </span>
+            </h1>
+            <p className="max-w-[500px] mb-9 text-white/80">
+              "A quick learner and solution-oriented developer, passionate about
+              full-stack development. I thrive in dynamic environments,
+              embracing challenges with a proactive mindset and leveraging
+              teamwork to achieve seamless collaboration and innovative
+              outcomes."
+            </p>
+            <div className="flex flex-col items-center gap-8 xl:flex-row">
+              <Button
+                //variant="outline"
+                size="lg"
+                className="flex items-center gap-2 uppercase"
+              >
+                <span>Download CV </span>
+                <a href="/assets/cv.pdf" download>
+                  <FiDownload className="text-xl" />
+                </a>
+              </Button>
+              <div className="mb-8 xl:mb-0">
+                <Social
+                  containerStyles="flex gap-6"
+                  iconStyles="flex items-center justify-center text-base duration-500 border rounded-full  w-9 h-9 border-accent text-accent hover:bg-accent hover:text-primary hover:transition-all"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="order-1 mb-8 xl:order-none xl:mb-0">
+            <Photo />
+          </div>
+        </div>
+        <Stats />
+      </div>
+    </section>
   );
 }
